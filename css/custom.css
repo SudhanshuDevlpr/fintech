@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------------------------------
 * Author        : Awaiken
-* Template Name : Echeck - Business Consulting HTML Template
+* Template Name : Checkfac - Business Consulting HTML Template
 * File          : Css File
 * Version       : 1.0
 * ---------------------------------------------------------------------------------------- */
@@ -277,10 +277,10 @@ body{
 
 .loading-container,
 .loading{
-	height: 100px;
-	position: relative;
-	width: 100px;
-	border-radius: 100%;
+	    height: 165px;
+    position: relative;
+    width: 165px;
+    border-radius: 100%;
 }
 
 .loading-container{
@@ -299,12 +299,16 @@ body{
 	transition: all 0.5s ease-in-out;
 }
 
-#loading-icon{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	max-width: 66px;
-	transform: translate(-50%, -50%);
+#loading-icon {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    max-width: 66px;
+    transform: translate(-50%, -50%);
+}
+
+.main-logo{
+	max-width: 135px;
 }
 
 @keyframes rotate-loading{
